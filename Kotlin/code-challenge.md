@@ -20,7 +20,7 @@ Baseado no código abaixo, formule uma explicação do que pode ter ocorrido.
 
 O Controller da API no arquivo challenge.kt
 
-##Resposta
+## Resposta
 Provalmente o corretor que ganhava sempre se aproveitou do fato de corretores terem permissões não só para cadastrar como também deletar, devido aos ROLES desses dos endpoints serem os mesmos, então possivelmente o corretor que ganhava todos os meses deletava cadastros de outros corretores.
 
 Uma possível solução é verificar se é realmente necessário que corretores possam deletar imóveis, afinal o cenário falava apenas do cadastro de imovéis, caso não seja então necessário que corretores possam remover, devemos tirar esse acesso do role, porém caso o corretor ainda precise deletar devemos ter algum tipo de validação para verificar se aquele imovél que o corretor quer deletar é realmente dele.
