@@ -59,4 +59,8 @@ Tela do banco de dados:
 
 ![image](https://user-images.githubusercontent.com/90329628/141365554-585488de-831a-4610-b9ec-2127d161fd69.png)
 
+## Resposta
+
+Provavelmente o hacker interceptava as chamadas do cliente até a api, já que a criptografia era realizada apenas após o recebimento no construtor. 
+
 
