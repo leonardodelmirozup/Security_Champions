@@ -14,3 +14,6 @@ Dados dos clientes foram roubados. O back-end já confirmou, após uma análise 
 ## Resolução
 Decida qual é o problema baseado no código no arquivo challengereact.js
 
+## Resposta
+
+Os dados sensíveis estão sendo armazenados em uma variável, e a cada mudança de estado esse valor da variável é atualizado, com isso temos uma variável com muito tempo para ter seus dados acessados por pessoas mal intencionadas.
